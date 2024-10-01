@@ -16,7 +16,7 @@ struct Node{
 
 int levelOrder(Node* root){
     vector<vector<int>> ans;
-    if(root==NULL){
+    if(root==NULL){ return ans;}
         queue<Node*> q; 
         q.push(root);
         while(!q.empty()){
@@ -38,7 +38,7 @@ int levelOrder(Node* root){
             }
         }
     }
-}
+
 int levelorder(node* node){
     queue<Node*> q;
     q.push(root);

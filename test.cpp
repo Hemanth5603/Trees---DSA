@@ -15,6 +15,6 @@ int main(){
   
     int n;
     cin>>n;
-    int ans = func(n);
-    cout<<ans;
+    
+    cout<<n;
 }

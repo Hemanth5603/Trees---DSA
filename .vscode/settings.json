@@ -1,10 +1,15 @@
 {
     "files.associations": {
+        "*.jsx": "javascriptreact",
         "iostream": "cpp",
         "ostream": "cpp",
         "*.tcc": "cpp",
         "array": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "xiosbase": "cpp",
+        "xstring": "cpp",
+        "deque": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
